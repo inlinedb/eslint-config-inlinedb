@@ -1,0 +1,8 @@
+{
+  "name": "eslint-config-inlinedb",
+  "private": true,
+  "description": "Baseline eslint configuration for InlineDB",
+  "repository": "inlinedb/eslint-config-inlinedb",
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "MIT"
+}
