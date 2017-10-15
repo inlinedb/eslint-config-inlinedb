@@ -4,5 +4,8 @@
   "description": "Baseline eslint configuration for InlineDB",
   "repository": "inlinedb/eslint-config-inlinedb",
   "author": "Gopikrishna Sathyamurthy",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "eslint": "4.x"
+  }
 }
