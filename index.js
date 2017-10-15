@@ -3,16 +3,6 @@ module.exports = {
     'es6': true,
     'node': true
   },
-  'parser': 'babel-eslint',
-  'parserOptions': {
-    'ecmaVersion': 6,
-    'sourceType': 'module'
-  },
-  'globals': {
-    'given': true,
-    'it': true,
-    'when': true
-  },
   'rules': {
     'camelcase': 2,
     'consistent-return': 2,
@@ -105,6 +95,7 @@ module.exports = {
       2,
       'single'
     ],
+    'require-await': 2,
     'semi': 2,
     'sort-imports': [
       2,
