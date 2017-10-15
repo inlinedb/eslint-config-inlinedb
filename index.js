@@ -37,6 +37,7 @@ module.exports = {
     'new-cap': 2,
     'new-parens': 2,
     'newline-after-var': 2,
+    'newline-before-return': 2,
     'no-alert': 2,
     'no-caller': 2,
     'no-console': 2,
