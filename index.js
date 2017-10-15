@@ -4,12 +4,6 @@ module.exports = {
     'node': true
   },
   'rules': {
-    'camelcase': 2,
-    'consistent-return': 2,
-    'complexity': [
-      2,
-      3
-    ],
     'arrow-body-style': [
       2,
       'as-needed'
@@ -19,6 +13,12 @@ module.exports = {
       'as-needed'
     ],
     'arrow-spacing': 2,
+    'camelcase': 2,
+    'complexity': [
+      2,
+      3
+    ],
+    'consistent-return': 2,
     'curly': 2,
     'dot-notation': 2,
     'eol-last': 2,
@@ -50,7 +50,8 @@ module.exports = {
           -1,
           0,
           1,
-          2
+          2,
+          3
         ],
         'ignoreArrayIndexes': true
       }
@@ -83,8 +84,8 @@ module.exports = {
       2,
       {
         'blocks': 'always',
-        'switches': 'never',
-        'classes': 'always'
+        'classes': 'always',
+        'switches': 'never'
       }
     ],
     'prefer-const': 2,
