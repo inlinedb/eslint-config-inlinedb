@@ -1,6 +1,6 @@
 {
-  "name": "eslint-config-inlinedb",
-  "private": true,
+  "name": "@inlinedb/eslint-config-inlinedb",
+  "version": "0.0.0",
   "description": "Baseline eslint configuration for InlineDB",
   "repository": "inlinedb/eslint-config-inlinedb",
   "author": "Gopikrishna Sathyamurthy",
